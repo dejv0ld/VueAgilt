@@ -86,6 +86,7 @@ export default {
       answerMessage: "",
     };
   },
+
   methods: {
     checkAnswer() {
       if (this.currentQuestion >= this.questions.length) {
