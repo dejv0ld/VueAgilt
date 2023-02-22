@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import router from "../router/index.js"
+import router from "../router/index.js";
 export default {
   data() {
     return { videoSource: "./src/images/hero_video.mp4" };
@@ -23,9 +23,9 @@ export default {
   methods: {
     toQuiz() {
       // this.$route.push('/quiz');
-      router.push('/quiz')
-    }
-  }
+      router.push("/quiz");
+    },
+  },
 };
 </script>
 
